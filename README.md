@@ -1,5 +1,12 @@
 # MicroservicioDapperRedis
 
+###
+>- Redis-8.8.0-Windows-x64-cygwin
+>- redis-server
+>- refis-cli
+>- set name Ejemplo
+>- get name
+
 ## Redis
 
 Redis is the primary store for products. Configure its address in
