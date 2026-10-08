@@ -1,0 +1,154 @@
+@MicroservicioDapper_HostAddress = http://localhost:5168
+@host = http://localhost:5168
+@contentType = application/json
+
+
+GET {{MicroservicioDapper_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+
+
+### Variables para reutilizar
+@productId = 1
+@productName = Laptop
+@newProductName = SuperLaptop
+
+###
+# 1. OBTENER TODOS LOS PRODUCTOS
+GET {{host}}/api/products
+Accept: {{contentType}}
+
+###
+# 2. OBTENER PRODUCTO POR ID (usando variable)
+GET {{host}}/api/products/{{productId}}
+Accept: {{contentType}}
+
+###
+# 3. OBTENER PRODUCTO POR ID (valor específico)
+GET {{host}}/api/products/2
+Accept: {{contentType}}
+
+###
+# 4. BUSCAR PRODUCTO POR NOMBRE (si implementas endpoint de búsqueda)
+# GET {{host}}/api/products/search/{{productName}}
+# Accept: {{contentType}}
+
+###
+# 5. CREAR NUEVO PRODUCTO
+POST {{host}}/api/products
+Content-Type: {{contentType}}
+
+{
+  "name": "Tablet Android",
+  "description": "Tablet de 10 pulgadas con Android 13",
+  "price": 299.99,
+  "stock": 25
+}
+
+###
+# 6. CREAR OTRO PRODUCTO
+POST {{host}}/api/products
+Content-Type: {{contentType}}
+
+{
+  "name": "Smartwatch",
+  "description": "Reloj inteligente con GPS y monitor cardiaco",
+  "price": 199.99,
+  "stock": 50
+}
+
+###
+# 7. ACTUALIZAR PRODUCTO POR ID
+PUT {{host}}/api/products/{{productId}}
+Content-Type: {{contentType}}
+
+{
+  "name": "{{newProductName}}",
+  "description": "Laptop gamer actualizada con RTX 4070",
+  "price": 1599.99,
+  "stock": 15
+}
+
+###
+# 8. ACTUALIZAR OTRO PRODUCTO
+PUT {{host}}/api/products/3
+Content-Type: {{contentType}}
+
+{
+  "name": "Teclado Mecánico RGB",
+  "description": "Teclado mecánico con switches azules y luz RGB",
+  "price": 129.99,
+  "stock": 40
+}
+
+###
+# 9. ELIMINAR PRODUCTO POR ID
+DELETE {{host}}/api/products/4
+Accept: {{contentType}}
+
+###
+# 10. ELIMINAR OTRO PRODUCTO
+DELETE {{host}}/api/products/5
+Accept: {{contentType}}
+
+###
+# 11. PROBAR PRODUCTO INEXISTENTE (404)
+GET {{host}}/api/products/999
+Accept: {{contentType}}
+
+###
+# 12. ACTUALIZAR PRODUCTO INEXISTENTE (404)
+PUT {{host}}/api/products/999
+Content-Type: {{contentType}}
+
+{
+  "name": "Producto Inexistente",
+  "description": "Este producto no existe",
+  "price": 99.99,
+  "stock": 10
+}
+
+###
+# 13. ELIMINAR PRODUCTO INEXISTENTE (404)
+DELETE {{host}}/api/products/999
+Accept: {{contentType}}
+
+###
+# 14. CREAR PRODUCTO CON DATOS INVÁLIDOS (400 Bad Request)
+POST {{host}}/api/products
+Content-Type: {{contentType}}
+
+{
+  "name": "",
+  "description": "Producto sin nombre",
+  "price": -50,
+  "stock": -10
+}
+
+###
+# 15. CREAR PRODUCTO SIN ALGUNOS CAMPOS (si usas [Required] en modelos)
+POST {{host}}/api/products
+Content-Type: {{contentType}}
+
+{
+  "name": "Producto Incompleto"
+}
+
+###
+# 16. OBTENER TODOS LOS PRODUCTOS CON PAGINACIÓN 
+# (si implementas paginación más adelante)
+# GET {{host}}/api/products?page=1&pageSize=10
+# Accept: {{contentType}}
+
+###
+# 17. OBTENER PRODUCTOS FILTRADOS POR PRECIO
+# (si implementas filtros más adelante)
+# GET {{host}}/api/products/filter?minPrice=100&maxPrice=500
+# Accept: {{contentType}}
+
+###
+# 18. HEALTH CHECK DEL MICROSERVICIO
+GET {{host}}/health
+Accept: {{contentType}}

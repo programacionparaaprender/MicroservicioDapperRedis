@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\luis1\\Documents\\htdocs\\plantilla\\MicroservicioDapper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A613F29-933A-42DB-947C-6C83D631BAC9}|Elementos de la soluci\u00F3n{1A613F29-933A-42DB-947C-6C83D631BAC9}|C:\\Users\\luis1\\Documents\\htdocs\\plantilla\\MicroservicioDapper\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{1A613F29-933A-42DB-947C-6C83D631BAC9}|Elementos de la soluci\u00F3n{1A613F29-933A-42DB-947C-6C83D631BAC9}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E2AB8B-E022-4385-911D-41CA68D8370C}|MicroservicioDapper.Tests\\MicroservicioDapper.Tests.csproj|c:\\users\\luis1\\documents\\htdocs\\plantilla\\microserviciodapper\\microserviciodapper.tests\\controllers\\productscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E2AB8B-E022-4385-911D-41CA68D8370C}|MicroservicioDapper.Tests\\MicroservicioDapper.Tests.csproj|solutionrelative:microserviciodapper.tests\\controllers\\productscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99819F67-05DC-4E5C-AD19-275A5EED9E83}|MicroservicioDapper\\MicroservicioDapper.csproj|c:\\users\\luis1\\documents\\htdocs\\plantilla\\microserviciodapper\\microserviciodapper\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99819F67-05DC-4E5C-AD19-275A5EED9E83}|MicroservicioDapper\\MicroservicioDapper.csproj|solutionrelative:microserviciodapper\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E2AB8B-E022-4385-911D-41CA68D8370C}|MicroservicioDapper.Tests\\MicroservicioDapper.Tests.csproj|c:\\users\\luis1\\documents\\htdocs\\plantilla\\microserviciodapper\\microserviciodapper.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E2AB8B-E022-4385-911D-41CA68D8370C}|MicroservicioDapper.Tests\\MicroservicioDapper.Tests.csproj|solutionrelative:microserviciodapper.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99819F67-05DC-4E5C-AD19-275A5EED9E83}|MicroservicioDapper\\MicroservicioDapper.csproj|c:\\users\\luis1\\documents\\htdocs\\plantilla\\microserviciodapper\\microserviciodapper\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99819F67-05DC-4E5C-AD19-275A5EED9E83}|MicroservicioDapper\\MicroservicioDapper.csproj|solutionrelative:microserviciodapper\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99819F67-05DC-4E5C-AD19-275A5EED9E83}|MicroservicioDapper\\MicroservicioDapper.csproj|c:\\users\\luis1\\documents\\htdocs\\plantilla\\microserviciodapper\\microserviciodapper\\microserviciodapper.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{99819F67-05DC-4E5C-AD19-275A5EED9E83}|MicroservicioDapper\\MicroservicioDapper.csproj|solutionrelative:microserviciodapper\\microserviciodapper.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\luis1\\Documents\\htdocs\\plantilla\\MicroservicioDapper\\MicroservicioDapper.Tests\\Controllers\\ProductsControllerTests.cs",
+              "RelativeDocumentMoniker": "MicroservicioDapper.Tests\\Controllers\\ProductsControllerTests.cs",
+              "ToolTip": "C:\\Users\\luis1\\Documents\\htdocs\\plantilla\\MicroservicioDapper\\MicroservicioDapper.Tests\\Controllers\\ProductsControllerTests.cs",
+              "RelativeToolTip": "MicroservicioDapper.Tests\\Controllers\\ProductsControllerTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T23:28:36.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\luis1\\Documents\\htdocs\\plantilla\\MicroservicioDapper\\MicroservicioDapper.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "MicroservicioDapper.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\luis1\\Documents\\htdocs\\plantilla\\MicroservicioDapper\\MicroservicioDapper.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "MicroservicioDapper.Tests\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T23:27:42.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\luis1\\Documents\\htdocs\\plantilla\\MicroservicioDapper\\MicroservicioDapper\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "MicroservicioDapper\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\luis1\\Documents\\htdocs\\plantilla\\MicroservicioDapper\\MicroservicioDapper\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "MicroservicioDapper\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T12:53:54.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DapperContext.cs",
+              "DocumentMoniker": "C:\\Users\\luis1\\Documents\\htdocs\\plantilla\\MicroservicioDapper\\MicroservicioDapper\\Data\\DapperContext.cs",
+              "RelativeDocumentMoniker": "MicroservicioDapper\\Data\\DapperContext.cs",
+              "ToolTip": "C:\\Users\\luis1\\Documents\\htdocs\\plantilla\\MicroservicioDapper\\MicroservicioDapper\\Data\\DapperContext.cs",
+              "RelativeToolTip": "MicroservicioDapper\\Data\\DapperContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T12:53:44.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\luis1\\Documents\\htdocs\\plantilla\\MicroservicioDapper\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\luis1\\Documents\\htdocs\\plantilla\\MicroservicioDapper\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAC8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-12T12:50:37.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MicroservicioDapper.http",
+              "DocumentMoniker": "C:\\Users\\luis1\\Documents\\htdocs\\plantilla\\MicroservicioDapper\\MicroservicioDapper\\MicroservicioDapper.http",
+              "RelativeDocumentMoniker": "MicroservicioDapper\\MicroservicioDapper.http",
+              "ToolTip": "C:\\Users\\luis1\\Documents\\htdocs\\plantilla\\MicroservicioDapper\\MicroservicioDapper\\MicroservicioDapper.http",
+              "RelativeToolTip": "MicroservicioDapper\\MicroservicioDapper.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-12T12:49:54.004Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
